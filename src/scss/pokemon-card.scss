@@ -1,0 +1,11 @@
+@use 'variables' as *;
+
+.pokemon-card {
+  position: relative; // for pokemon artwork
+  border-radius: 1rem;
+  
+  a {
+    display: block;
+    height: 180px;
+  }
+}

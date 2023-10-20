@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .5rem;
+  margin: $body-y-spacing 0;
+}
+
+.pokemon-list-end {
+  text-align: center;
+  margin-bottom: $body-y-spacing;
+
+  img {
+    width: 120px;
+  }
+}

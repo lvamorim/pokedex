@@ -1,0 +1,43 @@
+@use 'variables' as *;
+
+.pokemon-details {
+  $rounded: 2rem;
+  background-color: $light-color;
+  border-top-left-radius: $rounded;
+  border-top-right-radius: $rounded;
+  padding: calc($body-y-spacing / 1.5) 0;
+  flex-grow: 1;
+
+  * {
+    color: $dark-color;
+  }
+
+  nav ul {
+    border-bottom: 3px solid $accent-color-1;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 300%;
+    text-align: center;
+  }
+
+  table {
+    margin-top: 1rem;
+
+    tr {
+      line-height: 200%;
+    }
+
+    th {
+      color: $medium-color;
+      font-weight: 600;
+      text-align: left;
+      text-transform: capitalize;
+      padding-right: 1rem;
+      width: 120px;
+    }
+
+    .abilities {
+      text-transform: capitalize;
+    }
+  }
+}

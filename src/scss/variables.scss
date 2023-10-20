@@ -1,0 +1,29 @@
+$dark-color: #131d29;
+$light-color: #fff;
+$medium-color: darken($light-color, 50);
+$accent-color-1: #6c79db;
+$accent-color-2: #f395b7;
+
+$pokemon-type-colors: (
+  grass: #48d0b0,
+  fire: #fb6c6c,
+  water: #76bdfe,
+  electric: #ffd86f,
+  normal: #bcbdaf,
+  poison: #a95ea1,
+  psychic: #eb74b5,
+  ground: #d4b85a,
+  ice: #9fdfe9,
+  rock: #e0d091,
+  dragon: #9385e7,
+  bug: #cbd652,
+  dark: #8f7e76,
+  fighting: #b36c63,
+  ghost: #8e69d3,
+  steel: #c4c2d8,
+  flying: #86a9f5,
+  fairy: #faadff
+);
+
+$body-x-spacing: 1rem;
+$body-y-spacing: 3rem;

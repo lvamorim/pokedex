@@ -1,0 +1,80 @@
+@use 'variables' as *;
+
+.pokemon-basic-info {
+  color: $light-color;
+  text-transform: capitalize;
+  width: 100%;
+
+  .name {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .types {
+    display: flex;
+    gap: .5rem;
+    font-weight: 600;
+
+    .chip {
+      background-color: transparentize($light-color, .75);
+      border-radius: 1rem;
+      padding: .25rem 1rem;
+    }
+  }
+
+  .number {
+    font-size: 1.25rem;
+  }
+
+  .artwork {
+    position: absolute;
+    filter: drop-shadow(.25rem .5rem .5rem #00000070) saturate(150%);
+  }
+
+  &.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 100%;
+
+    .name {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .types {
+      flex-direction: column;
+
+      .chip {
+        width: fit-content;
+      }
+    }
+
+    .number {
+      color: $dark-color;
+      opacity: .25;
+    }
+
+    .artwork {
+      right: 0;
+      bottom: 0;
+      width: 120px;
+    }
+  }
+
+  &.pokemon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 220px;
+
+    .artwork {
+      left: 50%;
+      bottom: -10%;
+      transform: translate(-50%, 100%);
+      width: 260px;
+    }
+  }
+}
