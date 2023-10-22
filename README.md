@@ -23,7 +23,7 @@
 **Pokédex** is a web application built using the [PokeAPI](https://pokeapi.co/), an open-source RESTful API that provides a rich source of data related to Pokémon, such as details about their abilities, types, moves, and much more. The project's design was inspired by [Saepul Nahwan](https://dribbble.com/shots/6540871-Pokedex-App) and proposed by Digital Innovation One (DIO) with the goal of practicing the knowledge acquired in their courses.
 
 ## Deploy
-> https://lvpokedex.vercel.app/
+> https://lv-pokedex.vercel.app/
 
 ## Techniques
 - Componentization with vanilla JavaScript
